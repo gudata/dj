@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+		<style >
+			:root {
+				--main-bg-color: #003049;
+				--main-color: #669BBC;
+				--accent-color: #FDF0D5;
+				--secondary-bg-color: #669BBC;
+			}
+
+			h1 { color: var(--accent-color);}
+			a { color: var(--main-color); text-decoration: none;}
+		</style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		%sveltekit.body%
+	</body>
+</html>
